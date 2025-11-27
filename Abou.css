@@ -21,7 +21,7 @@
     margin-top: -40px;
     width: 100%;
     height: 450px;
-    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/bg-baoutUs.jpg);
+    background-image: linear-gradient(rgba(73, 90, 67, 0.201)),url(/Imgs/bg-baoutUs.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -85,6 +85,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 .undr-cntr{
     display: flex;
     font-size: 0.29em;
@@ -98,7 +100,7 @@
 .parent{
     display: flex;
     /* justify-content: space-between; */
-    margin-top: 30px;
+    margin-top: 90px;
     margin-left: 50px;
 }
 
@@ -348,7 +350,7 @@ margin-left: 50px;
     /* background-color: black; */
     margin: 20px;
     border-radius: 10px;
-    background-image: url(/Aisha\ Mohamed1.jpg);
+    background-image: url(/Imgs/Aisha\ Mohamed1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -421,7 +423,8 @@ margin-left: 50px;
     width: 100%;
     height: 400px;
     background-color: rgba(15,66,41);
-    /* margin-bottom: 1rem; */
+    margin-top: 90px;
+    
 }
 
 .footer{
@@ -509,9 +512,986 @@ margin-left: 50px;
     /* padding-top: 2px; */
 }
 
+/* hidden icon (bars) */
+.logo i{
+    display: none;
+}
+
+
+/* meadia max-width-394px and min-width 360 */
+
+
+@media (max-width:390px) and (min-width:320px){
+    
+    /* section-1 */
+    .bg1{
+        height: 700px;
+    }
+    .logo ul{
+        display: none;
+    }
+
+    .logo button{
+        display: none;
+    }
+
+    .logo h1{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .logo i{
+        display: block;
+        margin-top: 46px;
+        font-size: 1.5em;
+    }
+
+    .cntr h1{
+      margin-top: 60px;
+    }
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 410%;
+        height: 70vh;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        width: 100%;
+    }
+
+    .c-parent #no{
+        padding-left: 60px;
+    }
+
+    .c-parent #no2{
+        padding-left: 40px;
+    }
+
+    .c-parent #hone{
+        margin-left: -50px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .c-parent #pdown{
+        margin-left: -50px;
+        margin-right: 60px;
+        font-size: 1em;
+    }
+
+    .c-parent button{
+        margin-top: 20px;
+        margin-left: -48px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .part-one{
+    
+        margin-left: -70px;
+    }
+
+    .part-one i{
+       font-size: 2.5em; 
+    }
+     .part-one h4{
+        font-size: 1.8em;
+     }   
+
+     .part-one p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+        .part-two{
+    
+        margin-left: -70px;
+    }
+
+    .part-two i{
+       font-size: 2.5em; 
+    }
+     .part-two h4{
+        font-size: 1.8em;
+     }   
+
+     .part-two p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+     .center{
+        margin-left: -15px;
+        margin-top: 120px;
+     }
+
+     .container{
+        margin-left: -306px;
+     }
+
+     .con-box{
+        width: 50%;
+     }
+
+     .con-box .iconandp2{
+        margin-left: 250px;
+     }
+
+     .con-box1{
+        width: 50%;
+        margin-left: 325px;
+     }
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+     }
+
+     .menu{
+        width: 91%;
+        position: relative;
+     }
+
+     .postn{
+    position: absolute;
+
+     }
+
+     .container-footer{
+        width: 100%;
+        height: 150vh;
+     }
+     
+     .footer{
+        display: block;
+        margin-left: 5px;
+     }
+     .footer-l h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-l i{
+        font-size: 2em;
+        margin-left: -6px;
+     }
+
+     .footer-l p{
+        margin-top: 5px;
+        font-size: 1.3em;
+     }
+
+     .footer-c{
+        margin-left: 0;
+        margin-left: 50px;
+     }
+
+     .footer-c h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-c i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+
+     }
+
+     .footer-c p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+     
+     .footer-r{
+        margin-left: 0;
+        margin-left: 50px;
+     }
+
+     .footer-r h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-r i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+     }
+
+     .footer-r p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+}
 
 
 
+
+/* media 2 */  
+  /*media max-width:391px and min-width:430px  */
+  
+  
+  @media (max-width:430px) and (min-width:391px){
+    /* section-1 */
+    .bg1{
+        height: 700px;
+    }
+    .logo ul{
+        display: none;
+    }
+
+    .logo button{
+        display: none;
+    }
+
+    .logo h1{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .logo i{
+        display: block;
+        margin-top: 46px;
+        font-size: 1.5em;
+    }
+
+    .cntr h1{
+      margin-top: 60px;
+    }
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 410%;
+        height: 70vh;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        width: 100%;
+    }
+
+    .c-parent #no{
+        padding-left: 60px;
+    }
+
+    .c-parent #no2{
+        padding-left: 40px;
+    }
+
+    .c-parent #hone{
+        margin-left: -50px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .c-parent #pdown{
+        margin-left: -50px;
+        margin-right: 60px;
+        font-size: 1em;
+    }
+
+    .c-parent button{
+        margin-top: 20px;
+        margin-left: -48px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .part-one{
+    
+        margin-left: -70px;
+    }
+
+    .part-one i{
+       font-size: 2.5em; 
+    }
+     .part-one h4{
+        font-size: 1.8em;
+     }   
+
+     .part-one p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+        .part-two{
+    
+        margin-left: -70px;
+    }
+
+    .part-two i{
+       font-size: 2.5em; 
+    }
+     .part-two h4{
+        font-size: 1.8em;
+     }   
+
+     .part-two p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+     .center{
+        margin-left: -15px;
+        margin-top: 120px;
+     }
+
+     .container{
+        margin-left: -306px;
+     }
+
+     .con-box{
+        width: 50%;
+     }
+
+     .con-box .iconandp2{
+        margin-left: 250px;
+     }
+
+     .con-box1{
+        width: 50%;
+        margin-left: 325px;
+     }
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+     }
+
+     .menu{
+        width: 91%;
+        position: relative;
+     }
+
+     .postn{
+    position: absolute;
+
+     }
+
+     .container-footer{
+        width: 100%;
+        height: 150vh;
+     }
+     
+     .footer{
+        display: block;
+        margin-left: 5px;
+     }
+     .footer-l h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-l i{
+        font-size: 2em;
+        margin-left: -6px;
+     }
+
+     .footer-l p{
+        margin-top: 5px;
+        font-size: 1.3em;
+     }
+
+     .footer-c{
+        margin-left: 0;
+        margin-left: 50px;
+     }
+
+     .footer-c h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-c i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+
+     }
+
+     .footer-c p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+     
+     .footer-r{
+        margin-left: 0;
+        margin-left: 50px;
+     }
+
+     .footer-r h2{
+        font-size: 2.2em;
+        margin-bottom: 10px;
+     }
+
+     .footer-r i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+     }
+
+     .footer-r p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+}
+
+/* media-3 */
+/* tablet ipad mini 768px */
+
+ @media (max-width:768px){
+    /* section-1 */
+    .bg1{
+        height: 700px;
+    }
+    .logo ul{
+        display: flex;
+        gap: 25px;
+        margin-left: -30px;
+        margin-top: -2px;
+    }
+
+   .btn{
+    margin-left: 14px;
+   }
+
+    .logo h1{
+        font-size: 1.7em;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    /* .logo i{
+        display: block;
+        margin-top: 40px;
+        font-size: 2em;
+
+    } */
+
+    .cntr h1{
+      margin-top: 60px;
+    }
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 460%;
+        height: 70vh;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .c-parent #no{
+        font-size: 9em;
+        padding-left: 200px;
+    }
+
+    .c-parent #no2{
+        font-size: 2em;
+        padding-left: 170px;
+    }
+
+    .c-parent #hone{
+        margin-left: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .c-parent #pdown{
+        margin-left: -0px;
+        margin-right: 120px;
+        font-size: 1.5em;
+    }
+
+    .c-parent button{
+        margin-top: 30px;
+        margin-left: -7px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .part-one{
+    
+        margin-left: -70px;
+    }
+
+    .part-one i{
+       font-size: 3em; 
+       margin-bottom: 10px;
+    }
+     .part-one h4{
+        font-size: 2em;
+     }   
+
+     .part-one p{
+        margin-left: 2px;
+        margin-right: 120px;
+        width: 40%;
+        font-size: 1.3em;
+     }
+
+        .part-two{
+    
+        margin-left: -70px;
+    }
+
+    .part-two i{
+       font-size: 2.5em; 
+       margin-bottom: 10px;
+
+    }
+     .part-two h4{
+        font-size: 2em;
+     }   
+
+     .part-two p{
+        margin-left: 2px;
+        margin-right: 120px;
+         width: 40%;
+        font-size: 1.3em;
+     }
+
+     .center{
+        margin-left: -15px;
+        margin-top: 180px;
+     }
+
+     .container{
+        margin-left: -200px;
+     }
+
+     .con-box{
+        width: 60%;
+     }
+
+     .con-box .iconandp2{
+        margin-left: 490px;
+     }
+
+     .con-box1{
+        width: 65%;
+        margin-left: 297px;
+     }
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+        background-size: cover;
+        margin-left: 30px;
+     }
+
+     .menu{
+        width: 91%;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+     }
+
+     .postn{
+        width: 40%;
+        bottom: 90px;
+    position: absolute;
+
+     }
+
+     .container-footer{
+        width: 100%;
+        height: 100vh;
+     }
+     
+     .footer{
+        display: block;
+        margin-left: 5px;
+     }
+
+     .footer-l{
+        margin-left: 200px;
+     }
+     .footer-l h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-l i{
+        font-size: 2em;
+        margin-left: -6px;
+     }
+
+     .footer-l p{
+        margin-top: 5px;
+        font-size: 1.3em;
+     }
+
+     .footer-c{
+        margin-left: 200px;
+     }
+
+     .footer-c h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-c i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+
+     }
+
+     .footer-c p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+     
+     .footer-r{
+        margin-left: 200px;
+     }
+
+     .footer-r h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-r i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+     }
+
+     .footer-r p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+}
+
+/* media-3 */
+/* media max-width:800px and min-width:820 */
+  
+
+ @media (max-width:884px) and (min-width:800px){
+    /* section-1 */
+    .bg1{
+        height: 700px;
+    }
+    .logo ul{
+        display: flex;
+        gap: 25px;
+        margin-left: -30px;
+        margin-top: -2px;
+    }
+
+   .btn{
+    margin-left: 14px;
+   }
+
+    .logo h1{
+        font-size: 1.7em;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    /* .logo i{
+        display: block;
+        margin-top: 40px;
+        font-size: 2em;
+
+    } */
+
+    .cntr h1{
+      margin-top: 60px;
+    }
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 460%;
+        height: 70vh;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .c-parent #no{
+        font-size: 9em;
+        padding-left: 200px;
+    }
+
+    .c-parent #no2{
+        font-size: 2em;
+        padding-left: 200px;
+        padding-bottom: 5px;
+    }
+
+    .c-parent #hone{
+        margin-left: 50px;
+        width: 100%;
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    .c-parent #pdown{
+        margin-left: 50px;
+        margin-right: 200px;
+        font-size: 1.5em;
+    }
+
+    .c-parent button{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .r-parent{
+        display: flex;
+        width: 100%;
+        margin-top: 90px;
+        margin-left: 30px;
+
+    }
+
+    .part-one{
+    
+        margin-left: -70px;
+    }
+
+    .part-one i{
+       font-size: 3em; 
+       margin-bottom: 10px;
+    }
+     .part-one h4{
+        font-size: 2em;
+     }   
+
+     .part-one p{
+        margin-left: 2px;
+        margin-right: 120px;
+        width: 40%;
+        font-size: 1.3em;
+     }
+
+        .part-two{
+    
+        margin-left: -70px;
+    }
+
+    .part-two i{
+       font-size: 2.5em; 
+       margin-bottom: 10px;
+
+    }
+     .part-two h4{
+        font-size: 2em;
+     }   
+
+     .part-two p{
+        margin-left: 2px;
+        margin-right: 120px;
+         width: 40%;
+        font-size: 1.3em;
+     }
+
+     .center{
+        margin-left: -15px;
+        margin-top: 180px;
+     }
+
+     .container{
+        margin-left: -200px;
+     }
+
+     .con-box{
+        width: 60%;
+     }
+
+     .con-box .iconandp2{
+        margin-left: 490px;
+     }
+
+     .con-box1{
+        width: 65%;
+        margin-left: 297px;
+     }
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+        background-size: cover;
+        margin-left: 30px;
+     }
+
+     .menu{
+        width: 91%;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+     }
+
+     .postn{
+        width: 40%;
+        bottom: 90px;
+    position: absolute;
+
+     }
+
+     .container-footer{
+        width: 100%;
+        height: 100vh;
+     }
+     
+     .footer{
+        display: block;
+        margin-left: 5px;
+     }
+
+     .footer-l{
+        margin-left: 200px;
+     }
+     .footer-l h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-l i{
+        font-size: 2em;
+        margin-left: -6px;
+     }
+
+     .footer-l p{
+        margin-top: 5px;
+        font-size: 1.3em;
+     }
+
+     .footer-c{
+        margin-left: 200px;
+     }
+
+     .footer-c h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-c i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+
+     }
+
+     .footer-c p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+     
+     .footer-r{
+        margin-left: 200px;
+     }
+
+     .footer-r h2{
+        font-size: 2.7em;
+        margin-bottom: 10px;
+     }
+
+     .footer-r i{
+         font-size: 1em;
+        margin-left: -6px;
+        margin-top: 10px;
+     }
+
+     .footer-r p{
+         margin-top: 5px;
+        font-size: 1.3em;
+     }
+}
 
 
 
