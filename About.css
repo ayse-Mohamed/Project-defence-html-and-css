@@ -518,10 +518,12 @@ margin-left: 50px;
 }
 
 
-/* meadia max-width-394px and min-width 360 */
+/* media-1 */
+
+/* meadia min-width-320px and max-width 390 */
 
 
-@media (max-width:390px) and (min-width:320px){
+@media (min-width:320px) and (max-width:390px){
     
     /* section-1 */
     .bg1{
@@ -549,6 +551,15 @@ margin-left: 50px;
     .cntr h1{
       margin-top: 60px;
     }
+
+    .undr-cntr{
+        display: flex;
+        margin-left: -420px;
+        gap: 30px;
+        font-size: 0.38em;
+        margin-top: 5px;
+    }
+
 
     /* section-2 */
     .parent{
@@ -604,7 +615,7 @@ margin-left: 50px;
     }
 
     .part-one i{
-       font-size: 2.5em; 
+       font-size: 2.9em; 
     }
      .part-one h4{
         font-size: 1.8em;
@@ -618,10 +629,12 @@ margin-left: 50px;
         .part-two{
     
         margin-left: -70px;
+        margin-top: -30px;
     }
 
     .part-two i{
-       font-size: 2.5em; 
+       font-size: 3.2em; 
+       
     }
      .part-two h4{
         font-size: 1.8em;
@@ -749,14 +762,12 @@ margin-left: 50px;
      }
 }
 
+/* media-2 */
 
+/* media min-width-391 and max-width-430 */
 
-
-/* media 2 */  
-  /*media max-width:391px and min-width:430px  */
-  
-  
-  @media (max-width:430px) and (min-width:391px){
+@media (min-width:391px) and (max-width:430px){
+    
     /* section-1 */
     .bg1{
         height: 700px;
@@ -782,6 +793,14 @@ margin-left: 50px;
 
     .cntr h1{
       margin-top: 60px;
+    }
+
+    .undr-cntr{
+        display: flex;
+        margin-left: -400px;
+        gap: 30px;
+        font-size: 0.38em;
+        margin-top: 5px;
     }
 
     /* section-2 */
@@ -984,9 +1003,10 @@ margin-left: 50px;
 }
 
 /* media-3 */
-/* tablet ipad mini 768px */
 
- @media (max-width:768px){
+/* media min-width-431 and max-width-900 */
+
+@media (min-width:431px) and (max-width:900px){
     /* section-1 */
     .bg1{
         height: 700px;
@@ -1006,6 +1026,7 @@ margin-left: 50px;
         font-size: 1.7em;
         margin-left: 20px;
         margin-top: 10px;
+        
     }
 
     /* .logo i{
@@ -1019,258 +1040,12 @@ margin-left: 50px;
       margin-top: 60px;
     }
 
-    /* section-2 */
-    .parent{
-        display: block;
-    }
-
-    .l-parent img{
-        width: 460%;
-        height: 70vh;
-        margin-left: 7px;
-        margin-top: 50px;
-    }
-
-    .c-parent{
-        margin-top: 40px;
-        width: 100%;
-    }
-
-    .c-parent #no{
-        font-size: 9em;
-        padding-left: 200px;
-    }
-
-    .c-parent #no2{
-        font-size: 2em;
-        padding-left: 170px;
-    }
-
-    .c-parent #hone{
-        margin-left: 10px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .c-parent #pdown{
-        margin-left: -0px;
-        margin-right: 120px;
-        font-size: 1.5em;
-    }
-
-    .c-parent button{
-        margin-top: 30px;
-        margin-left: -7px;
-    }
-
-    .r-parent{
-        display: block;
-        width: 100%;
-        margin-top: 30px;
-
-    }
-
-    .part-one{
-    
-        margin-left: -70px;
-    }
-
-    .part-one i{
-       font-size: 3em; 
-       margin-bottom: 10px;
-    }
-     .part-one h4{
-        font-size: 2em;
-     }   
-
-     .part-one p{
-        margin-left: 2px;
-        margin-right: 120px;
-        width: 40%;
-        font-size: 1.3em;
-     }
-
-        .part-two{
-    
-        margin-left: -70px;
-    }
-
-    .part-two i{
-       font-size: 2.5em; 
-       margin-bottom: 10px;
-
-    }
-     .part-two h4{
-        font-size: 2em;
-     }   
-
-     .part-two p{
-        margin-left: 2px;
-        margin-right: 120px;
-         width: 40%;
-        font-size: 1.3em;
-     }
-
-     .center{
-        margin-left: -15px;
-        margin-top: 180px;
-     }
-
-     .container{
+    .undr-cntr{
+        display: flex;
         margin-left: -200px;
-     }
-
-     .con-box{
-        width: 60%;
-     }
-
-     .con-box .iconandp2{
-        margin-left: 490px;
-     }
-
-     .con-box1{
-        width: 65%;
-        margin-left: 297px;
-     }
-
-     .con-box1 p{
-        width: 100%;
-        margin-left: -10px;
-     }
-
-     .iandv i{
-       margin-left: -120px;
-     }
-
-     .iandv h4{
-        margin-left: -20px;
-     }
-
-     .main{
-        display: block;
-        background-size: cover;
-        margin-left: 30px;
-     }
-
-     .menu{
-        width: 91%;
-        height: 100vh;
-        background-size: cover;
-        position: relative;
-     }
-
-     .postn{
-        width: 40%;
-        bottom: 90px;
-    position: absolute;
-
-     }
-
-     .container-footer{
-        width: 100%;
-        height: 100vh;
-     }
-     
-     .footer{
-        display: block;
-        margin-left: 5px;
-     }
-
-     .footer-l{
-        margin-left: 200px;
-     }
-     .footer-l h2{
-        font-size: 2.7em;
-        margin-bottom: 10px;
-     }
-
-     .footer-l i{
-        font-size: 2em;
-        margin-left: -6px;
-     }
-
-     .footer-l p{
+        gap: 30px;
+        font-size: 0.34em;
         margin-top: 5px;
-        font-size: 1.3em;
-     }
-
-     .footer-c{
-        margin-left: 200px;
-     }
-
-     .footer-c h2{
-        font-size: 2.7em;
-        margin-bottom: 10px;
-     }
-
-     .footer-c i{
-         font-size: 1em;
-        margin-left: -6px;
-        margin-top: 10px;
-
-     }
-
-     .footer-c p{
-         margin-top: 5px;
-        font-size: 1.3em;
-     }
-     
-     .footer-r{
-        margin-left: 200px;
-     }
-
-     .footer-r h2{
-        font-size: 2.7em;
-        margin-bottom: 10px;
-     }
-
-     .footer-r i{
-         font-size: 1em;
-        margin-left: -6px;
-        margin-top: 10px;
-     }
-
-     .footer-r p{
-         margin-top: 5px;
-        font-size: 1.3em;
-     }
-}
-
-/* media-3 */
-/* media max-width:800px and min-width:820 */
-  
-
- @media (max-width:884px) and (min-width:800px){
-    /* section-1 */
-    .bg1{
-        height: 700px;
-    }
-    .logo ul{
-        display: flex;
-        gap: 25px;
-        margin-left: -30px;
-        margin-top: -2px;
-    }
-
-   .btn{
-    margin-left: 14px;
-   }
-
-    .logo h1{
-        font-size: 1.7em;
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-
-    /* .logo i{
-        display: block;
-        margin-top: 40px;
-        font-size: 2em;
-
-    } */
-
-    .cntr h1{
-      margin-top: 60px;
     }
 
     /* section-2 */
@@ -1302,28 +1077,28 @@ margin-left: 50px;
     }
 
     .c-parent #hone{
-        margin-left: 50px;
+        margin-left: 120px;
         width: 100%;
         margin-bottom: 10px;
-        width: 60%;
+        width: 70%;
     }
 
     .c-parent #pdown{
-        margin-left: 50px;
+        margin-left: 120px;
         margin-right: 200px;
         font-size: 1.5em;
     }
 
     .c-parent button{
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 120px;
     }
 
     .r-parent{
         display: flex;
         width: 100%;
         margin-top: 90px;
-        margin-left: 30px;
+        margin-left: 70px;
 
     }
 
@@ -1333,7 +1108,7 @@ margin-left: 50px;
     }
 
     .part-one i{
-       font-size: 3em; 
+       font-size: 4em; 
        margin-bottom: 10px;
     }
      .part-one h4{
@@ -1350,10 +1125,11 @@ margin-left: 50px;
         .part-two{
     
         margin-left: -70px;
+        margin-top: -32px;
     }
 
     .part-two i{
-       font-size: 2.5em; 
+       font-size: 4em; 
        margin-bottom: 10px;
 
     }
@@ -1379,6 +1155,7 @@ margin-left: 50px;
 
      .con-box{
         width: 60%;
+        height: 240px;
      }
 
      .con-box .iconandp2{
@@ -1388,25 +1165,38 @@ margin-left: 50px;
      .con-box1{
         width: 65%;
         margin-left: 297px;
+        height: 300px;
      }
+    
 
      .con-box1 p{
         width: 100%;
         margin-left: -10px;
+        font-size: 1.1em;
      }
 
      .iandv i{
-       margin-left: -120px;
+       margin-left: -150px;
+       font-size: 2em;
+     }
+
+     .iandv p{
+      font-size: 1.1em;
      }
 
      .iandv h4{
         margin-left: -20px;
+        font-size: 1.7em;
+        margin-top: -30px;
      }
-
+     
+    .hayn2{
+    }
      .main{
         display: block;
         background-size: cover;
         margin-left: 30px;
+        margin-top: 130px;
      }
 
      .menu{
@@ -1425,7 +1215,7 @@ margin-left: 50px;
 
      .container-footer{
         width: 100%;
-        height: 100vh;
+        height: 125vh;
      }
      
      .footer{
@@ -1492,6 +1282,23 @@ margin-left: 50px;
         font-size: 1.3em;
      }
 }
+
+
+
+
+
+  
+  
+ 
+
+
+
+
+
+
+  
+
+ 
 
 
 
