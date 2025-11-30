@@ -61,7 +61,7 @@
     width: 100%;
     height: 450px;
     margin-top: -8px;
-    background-image: linear-gradient(rgba(63, 127, 63, 0.3)),url(/Imgs/About.png);
+    background-image: linear-gradient(rgba(63, 127, 63, 0.3)),url(/Imgs/bg-baoutUs.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -426,5 +426,768 @@
     font-size: 1em;
     margin-bottom: 10px;
     margin-left: 60px;
+}
+
+#bars{
+    display: none;
+}
+/* media-1 */
+
+/* meadia min-width-320px and max-width 390 */
+
+@media (min-width:320px) and (max-width:390px){
+    
+    /* section-1 */
+    .bg1{
+        height: 400px;
+        margin-top: -100px;
+    }
+    .header-nav ul{
+        display: none;
+    }
+
+    .header-nav button{
+        display: none;
+    }
+
+    .logo {
+        margin-top: -30px;
+    }
+
+    .logo i{
+        margin-left: -10px;
+        font-size: 3em;
+    }
+    .logo h1{
+        margin-left: 30px;
+        margin-top: -25px;
+        font-size: 1.3em;
+    }
+
+    .header-nav i{
+        font-size: 1.5em;
+        margin-top: 30px;
+
+    }
+
+    
+.header-nav #bars{
+     display: block;
+        font-size: 1.6em;
+        margin-left: 30%;
+}
+
+    .logo i{
+        display: block;
+        margin-top: 46px;
+        font-size: 1.5em;
+    }
+
+    /* .center .h1-cntr1{
+      margin-top: 200px;
+    } */
+
+    .undr-cntr{
+        display: flex;
+        margin-left: -420px;
+        gap: 30px;
+        font-size: 0.38em;
+        margin-top: 5px;
+    }
+
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 440%;
+        height: 70vh;
+        margin-left: -4px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .c-parent #no{
+        /* padding-left: -10px; */
+    }
+
+    .c-parent #no2{
+        /* padding-left: -20px; */
+    }
+
+    .c-parent #hone{
+        margin-left: -50px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .c-parent #pdown{
+        margin-left: -50px;
+        margin-right: 60px;
+        font-size: 1em;
+    }
+
+    .c-parent button{
+        margin-top: 20px;
+        margin-left: -48px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 100%;
+        margin-top: 120px;
+
+    }
+
+    .part-one{
+    
+        margin-left: 10px;
+    }
+
+    .part-one i{
+       font-size: 2.9em; 
+    }
+     .part-one h4{
+        font-size: 1.8em;
+     }   
+
+     .part-one p{
+        margin-left: -5px;
+        margin-right: 120px;
+        width: 100%px;
+     }
+
+        .part-two{
+    
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .part-two i{
+       font-size: 3.2em; 
+       
+    }
+     .part-two h4{
+        font-size: 1.8em;
+     }   
+
+     .part-two p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+     .center{
+        margin-left: -8px;
+        margin-top: 120px;
+     }
+
+     
+
+     .con-box1{
+        width: 90%;
+        display: flex;
+        margin-top: 300px;
+        margin-left: 20px;
+     }
+     .gren-box{
+        width: 92%;
+        left: 17px;
+        /* margin-left: -7px; */
+     }
+
+     .con-box .iconandp2{
+        margin-left: 250px;
+     }
+
+     
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+      
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+     }
+
+     .menu{
+        width: 91%;
+        position: relative;
+     }
+
+     .postn{
+    position: absolute;
+
+     }
+
+     /* .container-footer{
+        width: 100%;
+        height: 150vh;
+     } */
+     
+     /* .footer{
+        display: block;
+        /* margin-left: 5px; */
+        /* height: 100vh;
+        width: 100%;
+    } */ */
+
+    .footer{
+        width: 100%;
+        height: 400vh ;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .sec1 h2{
+        font-size: 1.7em;
+        padding-left: 10px;
+    }
+
+   .social-icon i{
+     font-size: 1.2em;
+   }
+    .social-icon p{
+     font-size: 1.2em;
+   }
+
+   .service{
+    margin-left: px;
+   }
+    .links{
+         margin-left: 12px; 
+    }
+    .links ul li{
+        margin-left:20px;
+}
+
+    
+    
+       
+}
+/* media-2 */
+
+/* meadia min-width-390px and max-width 430 */
+
+@media (min-width:390px) and (max-width:430px){
+    
+    /* section-1 */
+    .bg1{
+        height: 400px;
+        margin-top: -100px;
+    }
+    .header-nav ul{
+        display: none;
+    }
+
+    .header-nav button{
+        display: none;
+    }
+
+    .logo {
+        margin-top: -30px;
+    }
+
+    .logo i{
+        margin-left: -10px;
+        font-size: 3em;
+    }
+    .logo h1{
+        margin-left: 30px;
+        margin-top: -25px;
+        font-size: 1.3em;
+    }
+
+    .header-nav i{
+        font-size: 1.5em;
+        margin-top: 30px;
+
+    }
+
+    
+.header-nav #bars{
+    display: flex;
+     font-size: 1.6em;
+        margin-left: 30%;
+}
+
+    .logo i{
+        display: block;
+        margin-top: 46px;
+        font-size: 1.5em;
+    }
+
+    /* .center .h1-cntr1{
+      margin-top: 200px;
+    } */
+
+    .undr-cntr{
+        display: flex;
+        margin-left: -420px;
+        gap: 30px;
+        font-size: 0.38em;
+        margin-top: 5px;
+    }
+
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 440%;
+        height: 70vh;
+        margin-left: -4px;
+        margin-top: 50px;
+    }
+
+    .c-parent{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .c-parent #no{
+        /* padding-left: -10px; */
+    }
+
+    .c-parent #no2{
+        /* padding-left: -20px; */
+    }
+
+    .c-parent #hone{
+        margin-left: -50px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .c-parent #pdown{
+        margin-left: -50px;
+        margin-right: 60px;
+        font-size: 1em;
+    }
+
+    .c-parent button{
+        margin-top: 20px;
+        margin-left: -48px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 100%;
+        margin-top: 120px;
+
+    }
+
+    .part-one{
+    
+        margin-left: 10px;
+    }
+
+    .part-one i{
+       font-size: 2.9em; 
+    }
+     .part-one h4{
+        font-size: 1.8em;
+     }   
+
+     .part-one p{
+        margin-left: -5px;
+        margin-right: 120px;
+        width: 100%px;
+     }
+
+        .part-two{
+    
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .part-two i{
+       font-size: 3.2em; 
+       
+    }
+     .part-two h4{
+        font-size: 1.8em;
+     }   
+
+     .part-two p{
+        margin-left: -5px;
+        margin-right: 120px;
+     }
+
+     .center{
+        margin-left: -8px;
+        margin-top: 120px;
+     }
+
+     
+
+     .con-box1{
+        width: 90%;
+        display: flex;
+        margin-top: 300px;
+        margin-left: 20px;
+     }
+     .gren-box{
+        width: 92%;
+        left: 17px;
+        /* margin-left: -7px; */
+     }
+
+     .con-box .iconandp2{
+        margin-left: 250px;
+     }
+
+     
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+      
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+     }
+
+     .menu{
+        width: 91%;
+        position: relative;
+     }
+
+     .postn{
+    position: absolute;
+
+     }
+
+     /* .container-footer{
+        width: 100%;
+        height: 150vh;
+     } */
+     
+     /* .footer{
+        display: block;
+        /* margin-left: 5px; */
+        /* height: 100vh;
+        width: 100%;
+    } */ */
+
+    .footer{
+        width: 100%;
+        height: 400vh ;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .sec1 h2{
+        font-size: 1.7em;
+        padding-left: 10px;
+    }
+
+   .social-icon i{
+     font-size: 1.2em;
+   }
+    .social-icon p{
+     font-size: 1.2em;
+   }
+
+   .service{
+    margin-left: px;
+   }
+    .links{
+         margin-left: 12px; 
+    }
+    .links ul li{
+        margin-left:20px;
+}
+
+    
+    
+       
+}
+
+/* media-2 */
+
+/* meadia min-width-431px and max-width 900 */
+
+@media (min-width:431px) and (max-width:900px){
+    
+    /* section-1 */
+    .bg1{
+        height: 400px;
+        margin-top: -100px;
+    }
+
+   
+    .header-nav ul{
+        display: flex;
+       
+    }
+
+    .header-nav button{
+    
+        display: flex;
+    }
+
+    .logo {
+        margin-top: -30px;
+    }
+
+    .logo i{
+        margin-left: -10px;
+        font-size: 3em;
+    }
+    .logo h1{
+        margin-left: 30px;
+        margin-top: -25px;
+        font-size: 1.3em;
+    }
+
+    .header-nav i{
+        font-size: 1.5em;
+        margin-top: 30px;
+
+    }
+
+    
+.header-nav #bars{
+    display: none;
+}
+
+    .logo i{
+        display: block;
+        margin-top: 46px;
+        font-size: 1.5em;
+    }
+
+    /* .center .h1-cntr1{
+      margin-top: 200px;
+    } */
+
+    .undr-cntr{
+        display: flex;
+        margin-left: -420px;
+        gap: 30px;
+        font-size: 0.38em;
+        margin-top: 5px;
+    }
+
+
+    /* section-2 */
+    .parent{
+        display: block;
+    }
+
+    .l-parent img{
+        width: 440%;
+        height: 70vh;
+        margin-left: 13px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .c-parent{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .c-parent #no{
+    font-size: 6em;
+        
+    }
+
+    .c-parent #no2{
+        font-size: 1.4em;
+        /* padding-left: -20px; */
+    }
+
+    .c-parent #hone{
+        margin-left: -50px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 3em;
+    }
+
+    .c-parent #pdown{
+        margin-left: -50px;
+        margin-right: 60px;
+        font-size: 1.4em;
+    }
+
+    .c-parent button{
+        margin-top: 30px;
+        margin-left: -48px;
+    }
+
+    .r-parent{
+        display: block;
+        width: 190%;
+        margin-top: 120px;
+        
+
+    }
+
+    .part-one{
+    
+        margin-left: 10px;
+    }
+
+    .part-one i{
+       font-size: 3em; 
+    }
+     .part-one h4{
+        font-size: 2em;
+     }   
+
+     .part-one p{
+        /* margin-left: -5px; */
+        margin-right: 120px;
+        width: 400px;
+        font-size: 1.3em;
+
+     }
+
+        .part-two{
+    
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .part-two i{
+       font-size: 3em; 
+       
+    }
+     .part-two h4{
+        font-size: 2em;
+     }   
+
+     .part-two p{
+        /* margin-left: -5px; */
+        margin-right: 120px;
+        font-size: 1.3em;
+     }
+
+     .center{
+        margin-left: -8px;
+        margin-top: 120px;
+     }
+
+     
+
+     .con-box1{
+        width: 90%;
+        display: flex;
+        margin-top: 200px;
+        margin-left: 37px;
+     }
+     .gren-box{
+        width: 92%;
+        left: 28px;
+        /* margin-left: -7px; */
+     }
+
+     .con-box .iconandp2{
+        margin-left: 250px;
+     }
+
+     
+
+     .con-box1 p{
+        width: 100%;
+        margin-left: -10px;
+     }
+
+      
+     .iandv i{
+       margin-left: -120px;
+     }
+
+     .iandv h4{
+        margin-left: -20px;
+     }
+
+     .main{
+        display: block;
+     }
+
+     .menu{
+        width: 91%;
+        position: relative;
+     }
+
+     .postn{
+    position: absolute;
+
+     }
+
+     /* .container-footer{
+        width: 100%;
+        height: 150vh;
+     } */
+     
+     /* .footer{
+        display: block;
+        /* margin-left: 5px; */
+        /* height: 100vh;
+        width: 100%;
+    } */ */
+
+    .footer{
+        width: 100%;
+        height: 400vh ;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .sec1 h2{
+        font-size: 1.7em;
+        padding-left: 10px;
+    }
+
+   .social-icon i{
+     font-size: 1.2em;
+   }
+    .social-icon p{
+     font-size: 1.2em;
+   }
+
+   .service{
+    margin-left: px;
+   }
+    .links{
+         margin-left: 12px; 
+    }
+    .links ul li{
+        margin-left:20px;
+}
+
+    
+    
+       
 }
 
